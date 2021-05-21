@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+pod 'HNToaster','~> 1.0'
+
+target 'Ehon' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Ehon
+
+  target 'EhonTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'EhonUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

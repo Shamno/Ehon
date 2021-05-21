@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F0C8F26B0F3A1DD77C5DBB /* Pods_EhonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D13C5A865A653CF5935C25 /* Pods_EhonUITests.framework */; };
+		7D1367DC264CDCBF005D89A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1367DB264CDCBF005D89A3 /* AppDelegate.swift */; };
+		7D1367DE264CDCBF005D89A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1367DD264CDCBF005D89A3 /* SceneDelegate.swift */; };
+		7D1367E0264CDCBF005D89A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1367DF264CDCBF005D89A3 /* ViewController.swift */; };
+		7D1367E3264CDCBF005D89A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1367E1264CDCBF005D89A3 /* Main.storyboard */; };
+		7D1367E5264CDCC0005D89A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1367E4264CDCC0005D89A3 /* Assets.xcassets */; };
+		7D1367E8264CDCC0005D89A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1367E6264CDCC0005D89A3 /* LaunchScreen.storyboard */; };
+		7D1367F3264CDCC0005D89A3 /* EhonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1367F2264CDCC0005D89A3 /* EhonTests.swift */; };
+		7D1367FE264CDCC1005D89A3 /* EhonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1367FD264CDCC1005D89A3 /* EhonUITests.swift */; };
+		7D13680D264CDCE7005D89A3 /* NextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D13680B264CDCE7005D89A3 /* NextController.swift */; };
+		7D13680E264CDCE7005D89A3 /* NextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D13680C264CDCE7005D89A3 /* NextController.xib */; };
+		ACC8D2EDE7F214FC339CB97F /* Pods_EhonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E174EEE89A4A8C5F58161A9F /* Pods_EhonTests.framework */; };
+		DE9FBCCC8EA1B35E391849DF /* Pods_Ehon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE98C1423A49C9144F1F580 /* Pods_Ehon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D1367EF264CDCC0005D89A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1367D0264CDCBF005D89A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1367D7264CDCBF005D89A3;
+			remoteInfo = Ehon;
+		};
+		7D1367FA264CDCC1005D89A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1367D0264CDCBF005D89A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1367D7264CDCBF005D89A3;
+			remoteInfo = Ehon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080C964FE0AEF4023A9B8AB9 /* Pods-EhonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EhonUITests/Pods-EhonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28D4DFA63C32F268A86A676E /* Pods-Ehon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ehon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ehon/Pods-Ehon.debug.xcconfig"; sourceTree = "<group>"; };
+		3BE98C1423A49C9144F1F580 /* Pods_Ehon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ehon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E9CECEC07FE1EFED39CE6C /* Pods-EhonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EhonTests/Pods-EhonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48B775E8B4358A43BD566284 /* Pods-Ehon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ehon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ehon/Pods-Ehon.release.xcconfig"; sourceTree = "<group>"; };
+		71D13C5A865A653CF5935C25 /* Pods_EhonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EhonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1367D8264CDCBF005D89A3 /* Ehon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ehon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1367DB264CDCBF005D89A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D1367DD264CDCBF005D89A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D1367DF264CDCBF005D89A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D1367E2264CDCBF005D89A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D1367E4264CDCC0005D89A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1367E7264CDCC0005D89A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D1367E9264CDCC0005D89A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1367EE264CDCC0005D89A3 /* EhonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EhonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1367F2264CDCC0005D89A3 /* EhonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhonTests.swift; sourceTree = "<group>"; };
+		7D1367F4264CDCC0005D89A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1367F9264CDCC1005D89A3 /* EhonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EhonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1367FD264CDCC1005D89A3 /* EhonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhonUITests.swift; sourceTree = "<group>"; };
+		7D1367FF264CDCC1005D89A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D13680B264CDCE7005D89A3 /* NextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextController.swift; sourceTree = "<group>"; };
+		7D13680C264CDCE7005D89A3 /* NextController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextController.xib; sourceTree = "<group>"; };
+		C8A2880934F833318FF5A693 /* Pods-EhonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EhonUITests/Pods-EhonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E174EEE89A4A8C5F58161A9F /* Pods_EhonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EhonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E6C4C5AC1E390C6D34EEA1 /* Pods-EhonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EhonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EhonTests/Pods-EhonTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1367D5264CDCBF005D89A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9FBCCC8EA1B35E391849DF /* Pods_Ehon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1367EB264CDCC0005D89A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC8D2EDE7F214FC339CB97F /* Pods_EhonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1367F6264CDCC1005D89A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F0C8F26B0F3A1DD77C5DBB /* Pods_EhonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0491F18F1BA95735A28254D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE98C1423A49C9144F1F580 /* Pods_Ehon.framework */,
+				E174EEE89A4A8C5F58161A9F /* Pods_EhonTests.framework */,
+				71D13C5A865A653CF5935C25 /* Pods_EhonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5865E22D4DBED4075A562A74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28D4DFA63C32F268A86A676E /* Pods-Ehon.debug.xcconfig */,
+				48B775E8B4358A43BD566284 /* Pods-Ehon.release.xcconfig */,
+				46E9CECEC07FE1EFED39CE6C /* Pods-EhonTests.debug.xcconfig */,
+				E9E6C4C5AC1E390C6D34EEA1 /* Pods-EhonTests.release.xcconfig */,
+				C8A2880934F833318FF5A693 /* Pods-EhonUITests.debug.xcconfig */,
+				080C964FE0AEF4023A9B8AB9 /* Pods-EhonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D1367CF264CDCBF005D89A3 = {
+			isa = PBXGroup;
+			children = (
+				7D1367DA264CDCBF005D89A3 /* Ehon */,
+				7D1367F1264CDCC0005D89A3 /* EhonTests */,
+				7D1367FC264CDCC1005D89A3 /* EhonUITests */,
+				7D1367D9264CDCBF005D89A3 /* Products */,
+				5865E22D4DBED4075A562A74 /* Pods */,
+				0491F18F1BA95735A28254D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D1367D9264CDCBF005D89A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1367D8264CDCBF005D89A3 /* Ehon.app */,
+				7D1367EE264CDCC0005D89A3 /* EhonTests.xctest */,
+				7D1367F9264CDCC1005D89A3 /* EhonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D1367DA264CDCBF005D89A3 /* Ehon */ = {
+			isa = PBXGroup;
+			children = (
+				7D1367DB264CDCBF005D89A3 /* AppDelegate.swift */,
+				7D1367DD264CDCBF005D89A3 /* SceneDelegate.swift */,
+				7D1367DF264CDCBF005D89A3 /* ViewController.swift */,
+				7D1367E1264CDCBF005D89A3 /* Main.storyboard */,
+				7D13680B264CDCE7005D89A3 /* NextController.swift */,
+				7D13680C264CDCE7005D89A3 /* NextController.xib */,
+				7D1367E4264CDCC0005D89A3 /* Assets.xcassets */,
+				7D1367E6264CDCC0005D89A3 /* LaunchScreen.storyboard */,
+				7D1367E9264CDCC0005D89A3 /* Info.plist */,
+			);
+			path = Ehon;
+			sourceTree = "<group>";
+		};
+		7D1367F1264CDCC0005D89A3 /* EhonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D1367F2264CDCC0005D89A3 /* EhonTests.swift */,
+				7D1367F4264CDCC0005D89A3 /* Info.plist */,
+			);
+			path = EhonTests;
+			sourceTree = "<group>";
+		};
+		7D1367FC264CDCC1005D89A3 /* EhonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D1367FD264CDCC1005D89A3 /* EhonUITests.swift */,
+				7D1367FF264CDCC1005D89A3 /* Info.plist */,
+			);
+			path = EhonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D1367D7264CDCBF005D89A3 /* Ehon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D136802264CDCC1005D89A3 /* Build configuration list for PBXNativeTarget "Ehon" */;
+			buildPhases = (
+				918B5D7A05DD0F8554CA582B /* [CP] Check Pods Manifest.lock */,
+				7D1367D4264CDCBF005D89A3 /* Sources */,
+				7D1367D5264CDCBF005D89A3 /* Frameworks */,
+				7D1367D6264CDCBF005D89A3 /* Resources */,
+				BC60A1E8CC7209947A2C2A0F /* [CP] Embed Pods Frameworks */,
+				54ADEC4DC0A94D02DCF158F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ehon;
+			productName = Ehon;
+			productReference = 7D1367D8264CDCBF005D89A3 /* Ehon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D1367ED264CDCC0005D89A3 /* EhonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D136805264CDCC1005D89A3 /* Build configuration list for PBXNativeTarget "EhonTests" */;
+			buildPhases = (
+				AEC4CF9E0CC4601003E64A69 /* [CP] Check Pods Manifest.lock */,
+				7D1367EA264CDCC0005D89A3 /* Sources */,
+				7D1367EB264CDCC0005D89A3 /* Frameworks */,
+				7D1367EC264CDCC0005D89A3 /* Resources */,
+				7D32C48172850267282AB27A /* [CP] Embed Pods Frameworks */,
+				FC66547E4433A16AE5752229 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1367F0264CDCC0005D89A3 /* PBXTargetDependency */,
+			);
+			name = EhonTests;
+			productName = EhonTests;
+			productReference = 7D1367EE264CDCC0005D89A3 /* EhonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D1367F8264CDCC1005D89A3 /* EhonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D136808264CDCC1005D89A3 /* Build configuration list for PBXNativeTarget "EhonUITests" */;
+			buildPhases = (
+				1DA61D828FA10C73E60A1508 /* [CP] Check Pods Manifest.lock */,
+				7D1367F5264CDCC1005D89A3 /* Sources */,
+				7D1367F6264CDCC1005D89A3 /* Frameworks */,
+				7D1367F7264CDCC1005D89A3 /* Resources */,
+				5EA9AAEF790A3447F6E5C378 /* [CP] Embed Pods Frameworks */,
+				71FA2E54F6C70FDB19F16069 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1367FB264CDCC1005D89A3 /* PBXTargetDependency */,
+			);
+			name = EhonUITests;
+			productName = EhonUITests;
+			productReference = 7D1367F9264CDCC1005D89A3 /* EhonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D1367D0264CDCBF005D89A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7D1367D7264CDCBF005D89A3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					7D1367ED264CDCC0005D89A3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7D1367D7264CDCBF005D89A3;
+					};
+					7D1367F8264CDCC1005D89A3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7D1367D7264CDCBF005D89A3;
+					};
+				};
+			};
+			buildConfigurationList = 7D1367D3264CDCBF005D89A3 /* Build configuration list for PBXProject "Ehon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D1367CF264CDCBF005D89A3;
+			productRefGroup = 7D1367D9264CDCBF005D89A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1367D7264CDCBF005D89A3 /* Ehon */,
+				7D1367ED264CDCC0005D89A3 /* EhonTests */,
+				7D1367F8264CDCC1005D89A3 /* EhonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1367D6264CDCBF005D89A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1367E8264CDCC0005D89A3 /* LaunchScreen.storyboard in Resources */,
+				7D1367E5264CDCC0005D89A3 /* Assets.xcassets in Resources */,
+				7D13680E264CDCE7005D89A3 /* NextController.xib in Resources */,
+				7D1367E3264CDCBF005D89A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1367EC264CDCC0005D89A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1367F7264CDCC1005D89A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA61D828FA10C73E60A1508 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EhonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54ADEC4DC0A94D02DCF158F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ehon/Pods-Ehon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA9AAEF790A3447F6E5C378 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EhonUITests/Pods-EhonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71FA2E54F6C70FDB19F16069 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EhonUITests/Pods-EhonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D32C48172850267282AB27A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EhonTests/Pods-EhonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		918B5D7A05DD0F8554CA582B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ehon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC4CF9E0CC4601003E64A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EhonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC60A1E8CC7209947A2C2A0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ehon/Pods-Ehon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HNToaster/HNToaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HNToaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ehon/Pods-Ehon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC66547E4433A16AE5752229 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EhonTests/Pods-EhonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1367D4264CDCBF005D89A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1367E0264CDCBF005D89A3 /* ViewController.swift in Sources */,
+				7D1367DC264CDCBF005D89A3 /* AppDelegate.swift in Sources */,
+				7D13680D264CDCE7005D89A3 /* NextController.swift in Sources */,
+				7D1367DE264CDCBF005D89A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1367EA264CDCC0005D89A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1367F3264CDCC0005D89A3 /* EhonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1367F5264CDCC1005D89A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1367FE264CDCC1005D89A3 /* EhonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D1367F0264CDCC0005D89A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1367D7264CDCBF005D89A3 /* Ehon */;
+			targetProxy = 7D1367EF264CDCC0005D89A3 /* PBXContainerItemProxy */;
+		};
+		7D1367FB264CDCC1005D89A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1367D7264CDCBF005D89A3 /* Ehon */;
+			targetProxy = 7D1367FA264CDCC1005D89A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D1367E1264CDCBF005D89A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1367E2264CDCBF005D89A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D1367E6264CDCC0005D89A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1367E7264CDCC0005D89A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D136800264CDCC1005D89A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D136801264CDCC1005D89A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D136803264CDCC1005D89A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D4DFA63C32F268A86A676E /* Pods-Ehon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ehon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yuina.Ehon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D136804264CDCC1005D89A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B775E8B4358A43BD566284 /* Pods-Ehon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ehon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yuina.Ehon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D136806264CDCC1005D89A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E9CECEC07FE1EFED39CE6C /* Pods-EhonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EhonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yuina.EhonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ehon.app/Ehon";
+			};
+			name = Debug;
+		};
+		7D136807264CDCC1005D89A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E6C4C5AC1E390C6D34EEA1 /* Pods-EhonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EhonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yuina.EhonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ehon.app/Ehon";
+			};
+			name = Release;
+		};
+		7D136809264CDCC1005D89A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A2880934F833318FF5A693 /* Pods-EhonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EhonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yuina.EhonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ehon;
+			};
+			name = Debug;
+		};
+		7D13680A264CDCC1005D89A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080C964FE0AEF4023A9B8AB9 /* Pods-EhonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EhonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yuina.EhonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ehon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1367D3264CDCBF005D89A3 /* Build configuration list for PBXProject "Ehon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D136800264CDCC1005D89A3 /* Debug */,
+				7D136801264CDCC1005D89A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D136802264CDCC1005D89A3 /* Build configuration list for PBXNativeTarget "Ehon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D136803264CDCC1005D89A3 /* Debug */,
+				7D136804264CDCC1005D89A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D136805264CDCC1005D89A3 /* Build configuration list for PBXNativeTarget "EhonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D136806264CDCC1005D89A3 /* Debug */,
+				7D136807264CDCC1005D89A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D136808264CDCC1005D89A3 /* Build configuration list for PBXNativeTarget "EhonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D136809264CDCC1005D89A3 /* Debug */,
+				7D13680A264CDCC1005D89A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D1367D0264CDCBF005D89A3 /* Project object */;
+}
